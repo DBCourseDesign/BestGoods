@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShoppingCartFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:background="@color/yellow">
+
+        <TextView
+            android:id="@+id/menu_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:background="@color/yellow"
+            android:text="Shopping cart"
+            android:fontFamily="@font/msyh"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/shopping_cart_btn"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:text="Buy now!"
+        android:fontFamily="@font/hwls"
+        android:background="@drawable/home_btn2_bg"
+        android:textSize="50sp"/>
+</FrameLayout>

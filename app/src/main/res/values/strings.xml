@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+    <string name="app_name">BestGoods</string>
+    <string name="home_title1">Welcome to</string>
+    <string name="home_title2">BestGoods</string>
+    <string name="home_title3">Company</string>
+    <string name="home_title4">Statistic</string>
+    <string name="home_title5">Store</string>
+    <string name="home_title6">Prices</string>
+    <string name="home_title7">Descriptions</string>
+    <string name="home_title8">Name</string>
+    <string name="home_title9">Address</string>
+    <string name="home_title10">Member</string>
+    <string name="home_btn1">Login</string>
+    <string name="home_btn2">Sign up</string>
+    <string name="home_btn3">Modify Information</string>
+    <string name="home_btn4">Modify Item Information</string>
+    <string name="home_btn5">Modify Memberships Information</string>
+    <string name="home_btn6">Viewed Order List</string>
+
+
+
+    <string name="name">Profile</string>
+    <string name="address">Optional</string>
+    <string name="title_activity_new_navigation">newNavigationActivity</string>
+    <string name="title_explore">Explore</string>
+    <string name="title_shopping_cart">Shopping cart</string>
+    <string name="title_menu">Menu</string>
+    <string name="title_activity_new_navagation">NewNavagationActivity</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_edit_profile">EditProfileActivity</string>
+</resources>

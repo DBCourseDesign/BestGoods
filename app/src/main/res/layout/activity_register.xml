@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+              xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/shy2"
+    android:alpha="0.75"
+    android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/tv_register_title"
+            android:layout_alignBaseline="@+id/tv_home_title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/hwls"
+            android:text="@string/home_title2"
+            android:textSize="36sp"
+            android:textColor="@color/black"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="60dp">
+
+
+        <EditText
+            android:id="@+id/et_firstname"
+            android:layout_width="324dp"
+            android:layout_height="39dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="left|center"
+            android:hint="First Name"
+            android:inputType="text"
+            android:maxLength="11"
+            android:textColor="@color/black"
+            android:textColorHint="#333333"
+            android:textSize="13sp"
+            android:fontFamily="@font/arial"
+            android:background="@drawable/register_et_bg"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp">
+
+
+        <EditText
+            android:id="@+id/et_lastname"
+            android:layout_width="330dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="left|center"
+            android:hint="Last Name"
+            android:inputType="textPassword"
+            android:textColor="@android:color/black"
+            android:textColorHint="#333333"
+            android:fontFamily="@font/arial"
+            android:textSize="13sp"
+            android:background="@drawable/register_et_bg"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp">
+
+
+        <EditText
+            android:id="@+id/et_phonenumber"
+            android:layout_width="330dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="18dp"
+            android:gravity="left|center"
+            android:hint="Phone Number"
+            android:inputType="textPassword"
+            android:textColor="@android:color/black"
+            android:textColorHint="#333333"
+            android:fontFamily="@font/arial"
+            android:textSize="13sp"
+            android:background="@drawable/register_et_bg"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp">
+
+
+        <EditText
+            android:id="@+id/et_address"
+            android:layout_width="330dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="18dp"
+            android:gravity="left|center"
+            android:hint="Address"
+            android:inputType="textEmailAddress"
+            android:textColor="@android:color/black"
+            android:textColorHint="#333333"
+            android:fontFamily="@font/arial"
+            android:textSize="13sp"
+
+            android:background="@drawable/register_et_bg"/>
+
+    </RelativeLayout>
+
+    <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id = "@+id/radioGroup">
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arial"
+                android:layout_marginLeft="18dp"
+                android:textSize="12sp"
+                android:text="Company"
+                android:id = "@+id/radioButtonS"/>
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arial"
+                android:textSize="12sp"
+                android:text="Store"
+                android:id = "@+id/radioButtonR"/>
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arial"
+                android:textSize="12sp"
+                android:text="Member"
+                android:id = "@+id/radioButtonD"/>
+    </RadioGroup>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp">
+
+        <Button
+                android:id="@+id/btn_register"
+                android:layout_width="129dp"
+                android:layout_height="wrap_content"
+                android:text="Sign up"
+                android:layout_marginLeft="18dp"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:fontFamily="@font/msyh"
+                android:background="@drawable/login_btn_bg"/>
+
+        <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="129dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="66dp"
+                android:layout_toRightOf="@id/btn_register"
+                android:text="Cancel"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:fontFamily="@font/msyh"
+                android:background="@drawable/login_btn_bg"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

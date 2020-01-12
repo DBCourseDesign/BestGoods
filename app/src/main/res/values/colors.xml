@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="bluegreen">#00767E</color>
+    <color name="SolidCircle">#bfbfbf</color>
+    <color name="circleBorder">#50FFFFFF</color>
+    <color name="yellow">#FFCC33</color>
+    <color name="layout_border">#a3a3a3</color>
+</resources>

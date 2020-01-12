@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+              xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@mipmap/login_register"
+              android:alpha="0.75"
+              android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/tv_register_title"
+            android:layout_alignBaseline="@+id/tv_home_title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/hwls"
+            android:text="@string/home_title2"
+            android:textSize="36sp"
+            android:textColor="@color/black"/>
+
+    <TextView
+            android:text="Sign in success!"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/success_info"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:fontFamily="@font/hwls"
+            android:layout_marginTop="40dp"/>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="30dp">
+
+        <TextView
+                android:text="Dear "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/hwls"
+                android:textSize="36sp"
+                android:textColor="@color/black"
+                android:id="@+id/success_username"/>
+
+        <TextView
+                android:text="Username"
+                android:layout_toRightOf="@+id/success_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/hwls"
+                android:textSize="36sp"
+                android:textColor="@color/black"
+                android:id="@+id/success_tv_username"/>
+        <TextView
+                android:text=":"
+                android:layout_toRightOf="@+id/success_tv_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/hwls"
+                android:textSize="36sp"
+                android:textColor="@color/black"
+                android:id="@+id/success_tv_colon"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+        <TextView
+                android:text="Your user id is: "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/hwls"
+                android:layout_marginLeft="18dp"
+                android:textColor="@color/black"
+                android:textSize="36sp"
+                android:id="@+id/success_id"/>
+
+        <TextView
+                android:text="id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/hwls"
+                android:textColor="@color/black"
+                android:textSize="36sp"
+                android:gravity="center"
+                android:layout_marginTop ="65dp"
+                android:id="@+id/success_tv_id"/>
+
+    </RelativeLayout>
+
+    <Button
+            android:text="Got it"
+            android:layout_width="324dp"
+            android:layout_height="46dp"
+            android:layout_marginTop ="30dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            android:id="@+id/success_btn"
+            android:fontFamily="@font/hwls"
+            android:background="@drawable/login_btn_bg"/>
+
+</LinearLayout>

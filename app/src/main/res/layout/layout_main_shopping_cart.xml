@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.flipboard.bottomsheet.BottomSheetLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/bottomSheetLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <com.example.feedme.CustomLinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true">
+
+        <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="100dp"
+                android:id="@+id/typeRecyclerView"
+                android:layout_height="match_parent">
+        </androidx.recyclerview.widget.RecyclerView>
+        <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:background="#fff"-->
+        <!--android:id="@+id/itemRecyclerView"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--</android.support.v7.widget.RecyclerView>-->
+        <se.emilsjolander.stickylistheaders.StickyListHeadersListView
+                android:layout_width="match_parent"
+                android:background="#fff"
+                android:id="@+id/itemListView"
+                android:layout_height="wrap_content">
+        </se.emilsjolander.stickylistheaders.StickyListHeadersListView>
+    </com.example.feedme.CustomLinearLayout>
+</com.flipboard.bottomsheet.BottomSheetLayout>

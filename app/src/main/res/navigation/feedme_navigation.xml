@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/menuFragment">
+
+    <fragment
+        android:id="@+id/exploreFragment"
+        android:name="com.example.feedme.ExploreFragment"
+        android:label="Explore"
+        tools:layout="@layout/fragment_explore" />
+    <fragment
+        android:id="@+id/shoppingCartFragment"
+        android:name="com.example.feedme.ShoppingCartFragment"
+        android:label="Shopping cart"
+        tools:layout="@layout/fragment_shopping_cart" />
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.feedme.MenuFragment"
+        android:label="Menu"
+        tools:layout="@layout/fragment_menu" />
+    <fragment
+        android:id="@+id/inboxFragment"
+        android:name="com.example.feedme.InboxFragment"
+        android:label="Inbox"
+        tools:layout="@layout/fragment_inbox" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.feedme.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+
+</navigation>

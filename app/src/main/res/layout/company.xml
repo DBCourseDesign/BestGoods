@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:alpha="0.85"
+    android:background="@mipmap/shy4">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:layout_marginTop="80dp">
+        <TextView
+            android:id="@+id/tv_home_title3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="140dp"
+            android:fontFamily="@font/hwls"
+            android:text="@string/home_title3"
+            android:textSize="31sp"
+            android:textColor="@color/white"
+            android:gravity="bottom"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btn_home_log"
+            android:layout_width="324dp"
+            android:layout_height="46dp"
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="55dp"
+            android:fontFamily="@font/msyh"
+            android:text="@string/home_title4"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:background="@drawable/home_btn1_bg"/>
+
+        <Button
+            android:id="@+id/btn_home_reg"
+            android:layout_width="324dp"
+            android:layout_height="46dp"
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="115dp"
+            android:fontFamily="@font/msyh"
+            android:text="@string/home_btn3"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:background="@drawable/home_btn1_bg"
+            android:layout_alignEnd="@+id/btn_home_log"
+            android:layout_alignRight="@+id/btn_home_log"/>
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

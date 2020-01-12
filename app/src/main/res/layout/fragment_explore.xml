@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="0dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:background="@color/yellow"
+        android:orientation="horizontal">
+
+        <SearchView
+            android:layout_marginTop="9dp"
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp">
+
+        </SearchView>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_marginTop="35dp"
+            android:layout_width="290dp"
+            android:layout_height="70dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/white"
+                android:fontFamily="@font/msyh"
+                android:hint="  Search" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:text="Featured Menus"
+        android:textSize="25sp" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/border">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="2dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                app:srcCompat="@mipmap/grade2_burger" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                app:srcCompat="@mipmap/grade3_spaghetti" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                app:srcCompat="@mipmap/grade4_fried_chicken" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="260dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:srcCompat="@mipmap/grade1_pizza" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Find More"
+        android:textSize="20dp" />
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <RelativeLayout
+                android:id="@+id/food_button"
+                android:layout_width="80dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/login_btn_bg">
+
+            <ImageView
+                    android:id="@+id/food_ico"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    app:srcCompat="@drawable/ic_food"/>
+
+            <Button
+                    android:id="@+id/restaurant_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="10dp"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/msyh"
+                    android:text="Food"
+                    android:textSize="13dp"
+                    android:textColor="@android:color/black"
+                    android:background="@drawable/explore_btn_bg"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:id="@+id/restaurant_button"
+                android:layout_width="115dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/food_button"
+                android:background="@drawable/login_btn_bg">
+
+            <ImageView
+                    android:id="@+id/res_ico"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    app:srcCompat="@drawable/fork"/>
+
+            <Button
+                    android:id="@+id/res_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="10dp"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/msyh"
+                    android:text="Restaurant"
+                    android:textSize="13dp"
+                    android:textColor="@android:color/black"
+                    android:background="@drawable/explore_btn_bg"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:id="@+id/promo_button"
+                android:layout_width="115dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@+id/restaurant_button"
+                android:background="@drawable/login_btn_bg">
+
+            <ImageView
+                    android:id="@+id/promo_ico"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dp"
+                    app:srcCompat="@drawable/ic_promo"/>
+            <Button
+                    android:id="@+id/promo_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="10dp"
+                    android:textAllCaps="false"
+                    android:fontFamily="@font/msyh"
+                    android:text="Promotion"
+                    android:textSize="13dp"
+                    android:textColor="@android:color/black"
+                    android:background="@drawable/explore_btn_bg"/>
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

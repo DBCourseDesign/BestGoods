@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/shy4"
+    android:alpha="0.75"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_register_title"
+        android:layout_alignBaseline="@+id/tv_home_title2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/hwls"
+        android:text="@string/home_title4"
+        android:textSize="36sp"
+        android:textColor="@color/white"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="60dp">
+
+
+        <EditText
+            android:id="@+id/et_query"
+            android:layout_width="260dp"
+            android:layout_height="39dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="left|center"
+            android:hint=" Query the number of all memberships"
+            android:inputType="text"
+            android:maxLength="11"
+            android:textColor="@color/white"
+            android:textColorHint="#666666"
+            android:textSize="13sp"
+            android:fontFamily="@font/msyh"
+            android:background="@drawable/home_btn1_bg"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp">
+
+
+        <EditText
+            android:id="@+id/et_query1"
+            android:layout_width="260dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="left|center"
+            android:hint=" Query average costs of all memberships"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:textColorHint="#666666"
+            android:fontFamily="@font/msyh"
+            android:textSize="13sp"
+            android:background="@drawable/home_btn1_bg"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp">
+
+
+        <EditText
+            android:id="@+id/et_query2"
+            android:layout_width="290dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="18dp"
+            android:gravity="left|center"
+            android:hint=" Query average costs of each membership"
+            android:inputType="textPassword"
+            android:textColor="@android:color/white"
+            android:textColorHint="#666666"
+            android:fontFamily="@font/msyh"
+            android:textSize="13sp"
+            android:background="@drawable/home_btn1_bg"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp">
+
+
+        <EditText
+            android:id="@+id/et_query3"
+            android:layout_width="340dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="18dp"
+            android:gravity="left|center"
+            android:hint=" Query the number of items a membership purchased"
+            android:inputType="textEmailAddress"
+            android:textColor="@android:color/black"
+            android:textColorHint="#333333"
+            android:fontFamily="@font/msyh"
+            android:textSize="13sp"
+            android:background="@drawable/home_btn1_bg"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp">
+
+
+        <EditText
+            android:id="@+id/et_query4"
+            android:layout_width="400dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="18dp"
+            android:gravity="left|center"
+            android:hint="Query the average number of items all membership purchased"
+            android:inputType="textEmailAddress"
+            android:textColor="@android:color/black"
+            android:textColorHint="#333333"
+            android:fontFamily="@font/msyh"
+            android:textSize="13sp"
+            android:background="@drawable/home_btn1_bg"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp">
+
+
+        <EditText
+            android:id="@+id/et_query5"
+            android:layout_width="340dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="18dp"
+            android:gravity="left|center"
+            android:hint=" Query details of all items a membership purchased"
+            android:inputType="textEmailAddress"
+            android:textColor="@android:color/black"
+            android:textColorHint="#333333"
+            android:fontFamily="@font/msyh"
+            android:textSize="13sp"
+            android:background="@drawable/home_btn1_bg"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
